@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>
+         Salman's Feedback Form
+    </title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container mt-5 col-sm-6">
+        <div class="card">
+            <div class="card-header"> Contact</div>
+            <div class="card-body">
+                <form action="" method="POST">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name"
+                        required>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender">
+                        Male
+                        <input type="radio" name="gender">
+                        Female
+                        <input type="radio" name="gender">
+                        Others
+                        <br>
+
+
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+
+                        <label for="phone">Mobile.NO</label>
+                        <input type="number" class="form-control" id="phone" placeholder="+91xxxxxxxxxx" required>
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="xxxxxx@E-mail.com"
+                            aria-describedby="emailhelp" required>
+                        <small>We'll never share your emil id with anyone else</small>
+
+
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="source">Came Form</label>
+                        <select name="source" id="source" class="form-control">
+                            <option value="">Select Source</option>
+                            <option value="GOOGLE">Google</option>
+                            <option value="FACEBOOK">Facebook</option>
+                            <option value="YOUTUBE">Youtube</option>
+                        </select>
+                    </div>
+                    <br>
+
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" class="form-control" row="3"
+                            placeholder="Enter Some Feedback"></textarea>
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
